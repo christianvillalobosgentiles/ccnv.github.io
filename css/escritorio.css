@@ -1,0 +1,405 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
+@import url(http://fonts.googleapis.com/css?family=Italianno);
+@media only screen and (min-width:769px) {
+    
+body {
+min-width: 1024px;
+max-width: 1480px;    
+    
+    }    
+
+/*texto mensaje h1*/
+header h1 {   
+font-size: 1.6em;
+text-align: auto; 
+padding-top: 40px; 
+
+color: rgba(52,187,220,1);
+    
+}
+    
+/*cuadro de imagen de logo*/    
+#img  {
+width: 250px; 
+float: left    
+        
+    
+}  
+/*imagen de logo*/       
+#img img{
+    width: 100%;
+    
+    } 
+
+/*checkbox desactivado*/
+#inp-menu {
+   display: none;  
+    
+    }
+    
+label {
+   display: none;
+    
+    
+    } 
+    
+/*main principal*/
+    
+main {
+    float: left;
+    width: 100%;
+    
+    }    
+    
+/*menu*/
+    
+.menu {
+ padding-top: 5px;
+ color: white;
+}
+.menu ul{
+padding-top: 8px;
+text-align: center;    
+}    
+    
+.menu il {    
+   padding-left: 20px;
+    padding: 12px;
+   
+       
+}    
+    
+.menu il:hover {
+    cursor: pointer;
+    background: #fff;
+    color: rgba(129,0,32,1);
+    
+ 
+    } 
+    
+
+    
+    
+/*en esta parte vamos a poner todo el cuerpo*/    
+section {
+    width: 100%;
+    margin-bottom: 20px;
+   
+       
+    }   
+
+
+    
+/*imagen principal*/
+    
+   
+#banner img{
+    width: 70%;
+     
+    }
+article h4 {
+  
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:10px;
+    padding-bottom: 8px;
+    
+    }
+article h3 {
+    
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+  
+    
+    }
+    
+article p{
+    background: rgba(129,0,32,0.8);
+    color: white;
+    font-family:cursive ;
+    text-align: center;    
+    font-size: 1.1em;
+    
+    
+    } 
+article h5{
+    padding-top: 50px;
+    text-align: center;
+    font-family: cursive;
+    
+    font-size: 0.8em;
+    
+    }    
+    
+article{
+    border: 5px solid rgba(52,187,220,1);
+    margin-right: 60px;
+    margin-top: 30px;
+    height: 600px;
+    box-shadow: 4px 5px 20px #888888; 
+ 
+    
+    }
+    
+  
+    
+#banner #declaracion {  
+    float: right;
+    width: 20%;
+   
+   
+
+    
+    
+    }   
+
+/*versiculos diarios*/
+
+.texto {
+    width: 70%;
+    height: 120px;
+    text-align: justify;
+    background:rgba(52,187,220,1);
+    color: white;
+    font-size: 0.8em;
+    border-radius: 5%;
+    margin-left: 1px;
+    
+       
+    } 
+.texto p {
+    margin: 7px;
+     
+    } 
+.texto h3{
+    text-align: center;
+    font-size: 2em;
+    
+    }   
+    
+   
+    
+/*cuadros 3d*/    
+.contenedor {
+    width: 250px;
+    height: 250px; 
+    -webkit-perspective: 700;
+    margin-bottom: 60px;
+    float: left;
+    margin-left: 50px;
+    
+ 
+    }
+    
+.carta {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    
+    
+    } 
+    
+.carta:hover {
+     transform: rotateY(180deg);
+    }    
+    
+.lado  {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    
+    } 
+    
+.frente {
+    background: red;
+
+
+    
+    }  
+
+.carta  img {
+    width: 100%;
+    height: 250px;
+    
+    
+    }
+ 
+    
+.atras {
+    background: #DDD;
+    transform: rotateY(180deg);
+    
+    } 
+.atras h1 {
+   color: red;
+   text-align: center; 
+    margin-bottom: 1em;
+    
+    }  
+.carta a {
+    display: block;
+    text-decoration: none;
+    margin: .4em;
+    color: rgba(129,0,32,1);   
+    
+    } 
+.carta a:hover {
+    background: rgba(121,89,89,0.5);
+    
+    }  
+section h1 {
+    background: rgba(129,0,32,1);
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;    
+
+    }  
+    
+    
+    
+    
+/*fin de cuadros 3d*/ 
+    
+/*imagenes que se muestran en los cuadros 3d*/
+.modal {
+    display: none;
+    
+    }    
+    
+    
+.modal:target {
+display: block;
+position: fixed;
+background: rgba(0,0,0,0.8);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;    
+
+}
+    
+.modal h3 {
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+    
+    } 
+
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    /*propiedad de reduccion*/
+    flex-shrink: 2;
+    
+    }
+
+    
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    
+    
+        
+    }  
+    
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 50%;
+    line-height: 25px;
+    
+    
+    }    
+    
+    
+/*fin de las imagenes 3d*/  
+   
+/*video inicio*/
+
+.inicio-izquierda {
+    float: right;
+    margin-top: 10px;
+    
+    }
+
+    
+.video-inicio{
+    
+    width: 25%;
+    height: 240px;
+    float:left;
+    margin-right: 30px;
+    float: right;
+    
+    }   
+    
+.video-inicio video  {
+        width: 100%;
+        height: 100%;
+    
+    }  
+    
+/*PIE INICIO*/    
+    
+.footer-pie {
+    width: 100%;
+    height: 150px;
+    clear: both;  
+    /*border-top: 50px solid transparent;
+    border-bottom: 256px solid rgba(129,0,32,1) ;
+    border-right: 100px solid rgba(129,0,32,1) ;
+    border-left: 0px solid transparent ;  */
+    background: rgba(129,0,32,1);
+    padding-top: 40px;
+    
+    } 
+    
+    
+.footer-pie p {
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    padding-bottom: .6em;
+    
+   
+    
+    }    
+    
+    
+/*PIE FIN*/        

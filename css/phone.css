@@ -1,0 +1,355 @@
+@media only screen and (max-width:480px) {
+
+/*texto mensaje h1*/
+body {
+    
+min-width: 320px;
+max-width: 480px;
+    
+    }
+header h1 {   
+font-size: 0.8em;
+text-align: auto; 
+padding-top: 40px; 
+
+    
+}
+    
+/*cuadro de imagen de logo*/    
+#img  {
+width: 180px; 
+float: left    
+        
+    
+}  
+/*imagen de logo*/       
+#img img{
+    width: 100%;
+    
+    } 
+
+/*checkbox desactivado*/
+#inp-menu {
+   display: none;  
+    
+    }
+    
+label {
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+    float: right;
+    margin: 8px;
+    
+    
+    } 
+    
+/*main principal*/
+    
+main {
+    float: left;  
+    
+    }    
+    
+/*menu*/
+    
+.menu {
+    position: absolute;
+    top:198px;
+    width: 100%;
+    height: 39vh;
+    background: rgba(129,0,32,1);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+    display: flex;
+    
+    }
+.menu ul{
+float: left;
+text-align: auto;
+padding-left: 1px;
+width: 100%;
+}    
+    
+.menu il {    
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    margin-right: 100px;
+    padding: 15px;
+    border-bottom: 1px  solid rgba(255,255,255,0.8) ;      
+    
+}    
+    
+.menu il:hover {
+    cursor: pointer;
+    background: rgba(121,89,89,0.5);
+    } 
+    
+    
+#inp-menu:checked ~ .menu  {
+      transform: translateX(0%);
+    
+    }
+    
+    
+/*en esta parte vamos a poner todo el cuerpo*/    
+section {
+    width: 100%;
+    margin-bottom: 20px;
+   
+       
+    }   
+
+
+    
+/*imagen principal*/
+    
+#banner img{
+    width: 100%;
+
+     
+    }
+article {
+    display: none;
+    }    
+
+/*versiculos diarios*/
+
+.texto {
+    width: 97%;
+    height: 120px;
+    text-align: justify;
+    background:rgba(52,187,220,1););
+    color: white;
+    font-size: 0.8em;
+    border-radius: 5%;
+       
+    } 
+.texto p {
+    margin: 7px;
+     
+    } 
+.texto h3{
+    text-align: center;
+    font-size: 2em;
+    
+    }   
+    
+   
+    
+/*cuadros 3d*/    
+.contenedor {
+    width: 250px;
+    height: 250px; 
+    -webkit-perspective: 700;
+    margin-bottom: 60px;
+ 
+    }
+    
+.carta {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    
+    
+    } 
+    
+.carta:hover {
+     transform: rotateY(180deg);
+    }    
+    
+.lado  {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    
+    } 
+    
+.frente {
+    background: red;
+
+
+    
+    }  
+
+.carta  img {
+    width: 100%;
+    height: 250px;
+    
+    
+    }
+ 
+    
+.atras {
+    background: #DDD;
+    transform: rotateY(180deg);
+    
+    } 
+.atras h1 {
+   color: red;
+   text-align: center; 
+    margin-bottom: 1em;
+    
+    }  
+.carta a {
+    display: block;
+    text-decoration: none;
+    margin: .4em;
+    color: rgba(129,0,32,1);   
+    
+    } 
+.carta a:hover {
+    background: rgba(121,89,89,0.5);
+    
+    }  
+section h1 {
+    background: rgba(129,0,32,1);
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;    
+
+    }  
+    
+    
+    
+    
+/*fin de cuadros 3d*/ 
+    
+/*imagenes que se muestran en los cuadros 3d*/
+.modal {
+    display: none;
+    
+    }    
+    
+    
+.modal:target {
+display: block;
+position: fixed;
+background: rgba(0,0,0,0.8);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;    
+
+}
+    
+.modal h3 {
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+    
+    } 
+
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    /*propiedad de reduccion*/
+    flex-shrink: 2;
+    
+    }
+
+    
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    
+    
+        
+    }  
+    
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 50%;
+    line-height: 25px;
+    
+    
+    }    
+    
+    
+/*fin de las imagenes 3d*/  
+    
+/*video inicio*/
+.video-inicio{
+    
+    width: 80%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    
+    
+    }   
+    
+    .video-inicio video  {
+    
+        width: 100%;
+        height: 100%;;
+    
+    }  
+    
+/*PIE INICIO*/    
+    
+.footer-pie {
+    width: 100%;
+    height: 150px;
+    clear: both;  
+    /*border-top: 50px solid transparent;
+    border-bottom: 256px solid rgba(129,0,32,1) ;
+    border-right: 100px solid rgba(129,0,32,1) ;
+    border-left: 0px solid transparent ;  */
+    background: rgba(129,0,32,1);
+    padding-top: 40px;
+    
+    } 
+    
+    
+.footer-pie p {
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    padding-bottom: .6em;
+    
+   
+    
+    }    
+    
+    
+/*PIE FIN*/        
+   
+
+}
