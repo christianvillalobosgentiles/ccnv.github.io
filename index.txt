@@ -1,0 +1,123 @@
+ <header>
+           
+           <div id="borde-arriba"></div>
+           
+           <div id="log-arriba" class="log-arriba">
+            <a><img id ="logo" src="images/LOGO%20WEB.png" alt=""></a> 
+              <p>Si alguno está en Cristo, nueva vida es... 2 Cor:5:17</p>
+               
+           </div>
+           
+           
+            <input type="checkbox" id="btn-menu">
+            
+            
+           <label for="btn-menu"><img src="images/0190-menu.png" alt="" ></label>           
+           
+          
+            <nav class="menu">
+                 <ul>
+                     <li><a href="#">INICIO</a></li>
+                    <li><a href="#">NUESTRA IGLESIA</a></li>
+                    <li><a href="#">MINISTERIOS</a></li>
+                    <li><a href="#">DONACIONES</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+          </nav>      
+      </header>   
+      
+      <section>
+        
+         
+         <div id="img-mediod">
+         <img class="img-inicio" src="images/IMAGEN WEB 1.jpg" alt=""/>
+         </div>
+
+         <div id="text-cudrouno">
+          <h3>PROGRAMACION DEL MES</h3>
+         </div>
+
+         <div id="text-cudrodos">
+          <h3>PREDICAS Y SERMONES</h3>
+         </div>
+
+         <div id="text-cudrotres">
+          <h3>EVENTOS ESPECIALES</h3>
+         </div>
+
+
+         <div class="cuadrouno">         
+          <div class="contenedor">
+             
+             <div class="carta">
+                <div class="lado frente">
+                    <img src="images/PROGRAMACION.jpg" alt="">
+                </div>
+                <div class="lado atras"  id="lado-atras">
+                <h3>Entrada</h3>               
+                 <ul>
+                   
+                    <li><a href="">Domingo</a></li>
+                    <li><a href="#img1">Lunes</a></li>
+                    <li>Martes</li>
+                    <li>Miercolesa</li>
+                    <li>Jueves</li>
+                    <li>Viernes</li>
+                    <li>Sabado</li>
+                     </ul> 
+
+                    </div> 
+                              
+                 
+             </div>           
+                          
+          </div>
+          
+         </div>
+          <div class="cuadrodos"> 
+           <div class="contenedor">
+             
+             <div class="carta">
+                <div class="lado frente">
+                    <img src="images/PROGRAMACION.jpg" alt="">
+                </div>
+                <div class="lado atras"></div>
+               
+                
+                 
+             </div>           
+                          
+          </div>
+          </div>
+          
+           <div class="cuadrotres"> 
+           <div class="contenedor">
+             
+             <div class="carta">
+                <div class="lado frente">
+                    <img src="images/PROGRAMACION.jpg" alt="">
+                </div>
+                <div class="lado atras"></div>
+               
+                
+                 
+             </div>           
+                          
+          </div>
+          </div>
+         
+         <div class="modal" id="img1">
+             <h3>LUNES</h3>
+             <div class="imagen">
+             <a href="">&#60;</a>
+             <a href=""><img src="images/Semana/LUNES%20INTERCESION.jpg"></a>
+             <a href="">></a>
+             </div>
+             <a  class="cerrar" href="">X</a>
+             
+         </div>
+          
+          
+       
+          
+      </section>
