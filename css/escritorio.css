@@ -149,12 +149,18 @@ article{
 #banner #declaracion {  
     float: right;
     width: 20%;
+	
    
    
 
     
     
-    }   
+    }
+
+#banner #declaracion img{
+    width: 100%;
+     
+    }	
 
 /*versiculos diarios*/
 
